@@ -8,7 +8,7 @@ lab:
 >**注意**：为了完成此实验室，你将需要一个 [Azure 订阅](https://azure.microsoft.com/en-us/free/?azure-portal=true)。 其中您拥有管理权限。 
 
 
-可以使用 Azure 门户将 Azure Key Vault 网络设置配置为与其他应用程序和 Azure 服务配合使用。 
+可以通过 Azure 门户将 Azure Key Vault 网络设置配置为与其他应用程序和 Azure 服务配合使用。 
 
 ---
 
