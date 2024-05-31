@@ -1,7 +1,7 @@
 ---
 lab:
-  title: 练习 04 - 使用 Log Analytics 代理从工作负载收集数据
-  module: Module 04 - Configure and integrate a Log Analytics agent and workspace in Defender for Cloud
+  title: 练习 4 - 在 Defender for Cloud 中配置 Log Analytics 代理和工作区并进行集成
+  module: Module 05 - Configure and integrate a Log Analytics agent and workspace in Defender for Cloud
 ---
 
 
