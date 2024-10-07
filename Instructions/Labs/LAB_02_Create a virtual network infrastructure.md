@@ -259,13 +259,13 @@ lab:
  
 3. 从“vm-1”部分中选择“网络”********
 
-4. 选择“应用程序安全组”选项卡，然后选择“配置应用程序安全组”********
+4. 选择“**应用程序安全组**”选项卡，然后选择“**+ 添加应用程序安全组**”
 
-5. 在“配置应用程序安全组”模板中，从“应用程序安全组”下拉菜单中选择“asg-mgmt”，然后单击模板页面顶部的“保存”图标。****************
+5. 从**添加应用程序安全组**模板中，选择**应用程序安全组**模板中的“**asg-mgmt**”，然后单击模板页面底部的“**添加**”图标。
 
-![图像](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls/assets/91347931/dd17aeba-8e16-431b-b921-527367fea484)
+![image](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls/assets/91347931/dd17aeba-8e16-431b-b921-527367fea484)
 
-6. 对 vm-2 重复前面的步骤，在“应用程序安全组”下拉菜单中选择“asg-web”。************
+6. 对 **vm-2** 重复前面的步骤，在**应用程序安全组**模板中选择“**asg-web**”。
 
 > **结果**：您已创建了一个虚拟网络基础架构，并使用 Azure 门户的网络安全组过滤了网络流量。
 
