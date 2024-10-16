@@ -24,7 +24,7 @@ lab:
 
 1. 启动浏览器会话并登录到 [Azure 门户](https://portal.azure.com/)。
    
-2. 从 Azure 门户菜单，在搜索框中输入**Log Analytics**。 开始键入时，会根据输入筛选该列表。 选择**Log Analytics 工作区**。
+2. 在 Azure 门户菜单的搜索框中输入 **Log Analytics 工作区**。 开始键入时，会根据输入筛选该列表。 选择**Log Analytics 工作区**。
 
 4. 选择**创建**。
 
