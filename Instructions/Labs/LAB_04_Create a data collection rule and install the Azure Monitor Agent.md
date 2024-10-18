@@ -17,6 +17,8 @@ lab:
 - 创建和定义数据收集规则。
 
 - 为数据收集选择目标资源。
+
+- 安装 Azure Monitor 代理。
   
 - 配置数据源和目标。
 
@@ -28,48 +30,86 @@ lab:
 
 ### 创建和定义数据收集规则。
 
->**备注**：在目标 Log Analytics 工作区或 Azure Monitor 工作区所在的同一区域中创建数据收集规则。 可以将数据收集规则关联到租户中任何订阅或资源组中的计算机或容器。 
-   
-1. 在门户顶部的搜索框中，输入数据收集规则。 在搜索结果中选择数据收集规则。
+>**备注**：在目标 Log Analytics 工作区或 Azure Monitor 工作区所在的同一区域中创建数据收集规则。 可以将数据收集规则关联到租户中任何订阅或资源组中的计算机或容器。
 
+1. 在门户顶部的搜索框中，输入**数据收集规则**。 在搜索结果中选择“**数据收集规则**”。
+  
 2. 选择“+ 新建”。
 
-![image](https://github.com/user-attachments/assets/e428c441-9d8d-4460-acd9-a97e2aa2b5af)
+![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
 
-3. 在“**创建数据收集规则**”边栏选项卡的“**基本信息**”选项卡上，指定以下设置（将其他设置保留为默认值）：
+3. 在“**创建数据收集规则**”边栏选项卡的“**基本信息**”页上，指定以下设置（将其他设置保留为默认值）：
 
     |设置|“值”|
     |---|---|
     |**规则详细信息**|
     |规则名称|**dcr-1**|
-    |订阅|此实验室中使用的 Iginte 订阅的名称|
+    |订阅|本实验室所用订阅的名称|
     |资源组|**az-rg-1**|
     |区域|**美国东部**|
     |平台类型|**Windows**|
     |数据收集终结点|*保留默认值“无”*|
 
-![image](https://github.com/user-attachments/assets/eee884f6-b20f-4d51-9310-6e755746ed9a)   
+![image](https://github.com/user-attachments/assets/35c527cf-499d-44b9-966f-0114b8643ef2)
 
 4. 单击标签为“下一步: 资源 >”的按钮以继续操作。
-
-5. 在“资源”选项卡上，选择 **+ 添加资源**。
+   
+5. 在“**资源**”页上，选择“**+ 添加资源**”。
   
 >**备注**：Azure Monitor 代理将自动安装到所选的虚拟机（资源）上以便收集数据。
+
+![image](https://github.com/user-attachments/assets/47174eb4-4343-49a2-b49d-e9dee76787e4)
+
+6. 在“**选择范围**”模板中，选中“**范围**”中的“**订阅**”框。
+
+![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
+
+7. 在“**选择范围**”模板底部，单击“**应用**”。
+  
+8. 在“**资源**”页底部，选择“**下一步：收集和传递 >**”。 
+
+![image](https://github.com/user-attachments/assets/717226c3-5ce0-454f-93a4-11b0e67d5a23)
+
+9. 在**收集和传递页**上，单击“**+ 添加数据源**”。
+
+![image](https://github.com/user-attachments/assets/0809cf5b-a460-40d1-8508-e42ba7ce78c1)
+
+10. 在“**添加数据源**”模板的“**数据源类型**”下，选择以下设置。
+    
+    |设置|“值”|
+    |---|---|
+    |**添加数据源**|
+    |选择数据源类型和要为资源收集的数据|
+    |数据源类型*|**Windows 事件日志**|
+    |配置要收集的事件日志和级别|
+    |应用程序|**严重**、**错误**、**警告**|
+    |安全性|**审核成功**、**审核失败**|
+    |系统|**严重**、**错误**、**警告**|
+
+![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
+
+11. 在“**添加数据源**”模板底部，选择“**下一步：目标 >**”。
    
-![image](https://github.com/user-attachments/assets/619106b4-7f5e-44dd-98c7-129689ab89c0)
+12. 在“**添加数据源**”模板的“**目标**”选项卡下，选择以下设置。
+    
+    |设置|“值”|
+    |---|---|
+    |**添加数据源**|
+    |目标|**+ 添加目标**|
+    |目标类型|**Azure Monitor 日志**|
+    |订阅|选择你的订阅|
+    |目标详细信息|**azwrkspc1a (az-rg-1**)
 
-6. 在“选择范围模板”中，选中“范围”选择中的 **Ignite-subscription** 框，然后单击**应用。**
+![image](https://github.com/user-attachments/assets/e00c17c8-5a70-4caa-8504-92f482cc5e57)
 
-![image](https://github.com/user-attachments/assets/c95b76cd-1515-47a5-b07b-02dcb28c0bf3)
+13. 在“**添加数据源**”模板底部，选择“**添加数据源**”。
 
+![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
 
-8. 选择“查看 + 创建”。
+14. 在“**收集和传递**”页面底部，选择“**查看 + 创建**”。
 
+![image](https://github.com/user-attachments/assets/0235fed9-6309-444c-9269-b9dbd1118b63)
 
+15. 在“**查看 + 创建**”页面底部，选择“**创建**”。
 
-
-
-
-
-
-> **结果**：您已创建数据收集规则并安装 Azure Monitor 代理。
+> **结果**：已创建数据收集规则并安装 Azure Monitor 代理。

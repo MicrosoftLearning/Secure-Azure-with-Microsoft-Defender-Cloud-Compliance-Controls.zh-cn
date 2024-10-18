@@ -24,36 +24,20 @@ lab:
 
 1. 登录 [Azure 门户菜单。](https://portal.azure.com/)
 
-2. 在 Azure 门户中，在 Azure 门户页面顶部的搜索资源、服务和文档文本框中，键入Microsoft Defender for Cloud，然后按 Enter 键  。
+2. 在 Azure 门户中，在 Azure 门户页面顶部的搜索资源、服务和文档文本框中，键入 **Microsoft Defender for Cloud**，然后按 **Enter** 键。
 
-3. 在 **Microsoft Defender for Cloud** 的“**管理边栏选项卡**”上，转到“**环境设置**”。 展开环境设置文件夹，直到显示“**Ignite 订阅**”部分，然后单击“**Ignite 订阅**”以查看详细信息。
+3. 在 **Microsoft Defender for Cloud** 的“**管理边栏选项卡**”上，转到“**环境设置**”。 展开环境设置文件夹，直到显示**订阅**部分，然后单击“**订阅**”以查看详细信息。
 
-4. 选择您的**订阅**和在模块 02 中创建的 **Log Analytics 工作区**，打开 Microsoft Defender 计划。
-
-5. 单击页面底部的蓝色大**升级**按钮。
+   ![image](https://github.com/user-attachments/assets/32d2168e-458f-4872-9bf8-e8f050f24751)
    
-    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/256bd584-b04f-4d5b-81a7-c83dd1af3b4f)
+3. 在“**设置**”边栏选项卡中的“**Defender 计划**”下，展开**云工作负荷保护 (CWP) **。
+
+4. 从**云工作负荷保护 (CWP) 计划**列表中，选择“**服务器**”。 在页面右侧，将**状态**从“**关**”更改为“**开**”，然后单击“**保存**”。
+
+5. 若要查看**服务器计划 2** 的详细信息，请选择“**更改计划 >**”。
+
+   备注：将云工作负荷保护 (CWP) 服务器计划从“关”启用为“开”，可启用 Microsoft Defender for Servers 计划 2。
+
+   ![image](https://github.com/user-attachments/assets/869a38e4-464e-4be0-b02e-ce1b96f02978)
    
-6. 在**Microsoft Defender for Cloud****入门边栏选项卡**上，转到**安装代理**选项卡并向下滚动。
-
-    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/8120ec8f-23dc-4636-bc45-b415c7894b8c)
-
-7. 选中与要安装代理的订阅相关联的复选框，然后单击**安装代理**。
-
-### 升级 Microsoft Defender for Cloud 订阅的替代操作。
-
-1. 导航到**Microsoft Defender for Cloud**，然后在左侧导航面板中的管理部分下，单击**环境设置**。
-   
-2. 在**Microsoft Defender for Cloud **环境设置边栏选项卡上，单击**全部展开**，向下滚动直到出现您的订购，然后单击相关订购。
-
-3. 在**设置、卫士计划**边栏选项卡上，选择**启用所有计划**，然后单击**保存**。
-
-   ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/4b684851-98ae-4720-a3e3-afa99aab8c43)
-
-
-
-
-   
-
-   
-> **结果**：您已在 Azure 订阅上升级并启用了 Defender for Cloud。
+> **结果**：已在订阅上启用 Microsoft Defender for Servers 计划 2。
