@@ -1,7 +1,7 @@
 ---
 lab:
-  title: 练习 03 - 为 Microsoft Defender for Cloud 创建 Log Analytics 工作区
-  module: Module 04 - Create a Log Analytics workspace for Microsoft Defender for Cloud
+  title: 练习 03：创建 Log Analytics 工作区
+  module: Module 04 - Create a Log Analytics workspace
 ---
 
 
@@ -43,4 +43,4 @@ lab:
   
 8. 选择**创建**。
 
-> **结果：** 已创建 Log Analytics 工作区，用于从 Azure 资源收集数据，以及从 Azure 存储收集诊断或日志数据。
+> **结果：** 已创建 Log Analytics 工作区，用于从 Azure 资源收集数据。
