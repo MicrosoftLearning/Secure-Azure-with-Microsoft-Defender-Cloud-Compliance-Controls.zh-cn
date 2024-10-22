@@ -1,7 +1,7 @@
 ---
 lab:
   title: 练习 04 - 创建数据收集规则并安装 Azure Monitor 代理
-  module: Module 05 - Create a data collection rule and install the Azure Monitor Agent
+  module: Module 05 - Collect guest operating system monitoring data from Azure and hybrid virtual machines using Azure Monitor Agent
 ---
 
 
@@ -28,9 +28,9 @@ lab:
 
 ## 练习说明 
 
-### 创建和定义数据收集规则，安装 Azure Monitor 代理。
+### 创建和定义数据收集规则，并安装 Azure Monitor 代理。
 
->**备注**：在 Log Analytics 工作区或 Azure Monitor 工作区所在的同一区域中创建数据收集规则。 可以将其关联到租户中任何订阅或资源组中的计算机或容器。 Azure Monitor 代理将自动安装在 Azure 虚拟资源上。
+>**备注**：在 Log Analytics 或 Azure Monitor 工作区所在的同一区域中创建数据收集规则。 可以将其关联到租户中任何订阅或资源组中的计算机或容器。 Azure Monitor 代理将自动安装在 Azure 虚拟资源上。
 
 1. 在门户顶部的搜索框中，输入**数据收集规则**。 在搜索结果中选择“**数据收集规则**”。
   
@@ -48,11 +48,11 @@ lab:
     |资源组|**az-rg-1**|
     |区域|**美国东部**|
     |平台类型|**Windows**|
-    |数据收集终结点|保留默认设置为“无”。|
+    |数据收集终结点|将默认设置保留为“无”。|
 
     ![image](https://github.com/user-attachments/assets/35c527cf-499d-44b9-966f-0114b8643ef2)
 
-4. 单击“**基本信息**”页面底部标记为“**下一步：资源 > 继续**”的按钮。
+4. 单击“**基本信息**”页底部标记为“**下一步: 资源 > 继续**”的按钮。
    
 5. 在“**资源**”页上，选择“**+ 添加资源**”。
 
