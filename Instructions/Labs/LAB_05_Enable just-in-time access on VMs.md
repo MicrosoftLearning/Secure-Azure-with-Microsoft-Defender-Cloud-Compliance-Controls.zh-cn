@@ -24,13 +24,13 @@ lab:
 
 >**注意**：可以从 Azure 门户的 Azure 虚拟机页面对 VM 启用 JIT。
 
-1. 在 Azure 门户中，搜索并选择**虚拟机**。
+1. 在门户顶部的搜索框中，输入“虚拟机”。 在搜索结果中，选择“虚拟机”。
+
+2. 选择 **vm-1**。
+ 
+3. 从 vm-1 的“**设置**”部分中选择“**配置**”。
    
-2. 选择要通过 JIT 保护的虚拟机。
-
-3. 在菜单中选择**配置**。
-
-4. 在**实时访问**下，选择**启用实时**。
+4. 在“**实时 VM 访问**”下，选择**启用实时。**
 
 5. 在**即时虚拟机**访问下，单击 **Open Microsoft Defender for Cloud** 链接。
 
@@ -52,9 +52,6 @@ lab:
    - 在**已配置**选项卡上，右键单击要向其添加端口的 VM，然后选择编辑。
   
  ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/66cf98b6-2ce0-43c7-a7be-b5d69bcfac1d)
-
-
-
 
    - 在**JIT VM 访问配置**下，可以编辑已保护的端口的现有设置，也可以添加新的自定义端口。
    - 编辑完端口后，选择**保存**。   
