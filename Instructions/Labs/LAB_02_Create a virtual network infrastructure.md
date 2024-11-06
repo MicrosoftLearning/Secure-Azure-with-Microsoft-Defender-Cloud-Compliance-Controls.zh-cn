@@ -65,11 +65,13 @@ lab:
    |开始地址|将默认设置保留为 10.0.0.0/16。|
    |子网大小|将默认设置保留为 /24（256 个地址）。
 
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/73c40ee1-1452-4b7d-8328-004c795a7b1e)
+   ![image](https://github.com/user-attachments/assets/4c5834f8-459f-4063-bd82-3e65237c6b1d)
 
-9. 选择**保存**。
+10. 选择**保存**。
 
-10. 选择屏幕底部的**查看 + 创建**，然后在验证通过时选择**创建**。
+11. 选择屏幕底部的**查看 + 创建**，然后在验证通过时选择**创建**。
+
+    ![image](https://github.com/user-attachments/assets/4fd02061-2349-42c4-8582-c7178f9b7eb6)
 
 ### 创建应用程序安全组，以便将具有类似功能的服务器（如网络服务器）分组。
 
@@ -103,7 +105,7 @@ lab:
    |资源组|选择 **az-rg-1。**|
    |**实例详细信息**|
    |名称|输入“asg-mgmt”。|
-   |区域|选择“(US)美国东部”。|
+   |区域|选择“美国东部”。|
 
 7. 选择“查看 + 创建”。
 

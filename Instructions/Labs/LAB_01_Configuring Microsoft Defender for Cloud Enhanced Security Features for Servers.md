@@ -28,7 +28,7 @@ lab:
 
 3. 在 **Microsoft Defender for Cloud** 的“**管理边栏选项卡**”上，转到“**环境设置**”。 展开环境设置文件夹，直到显示**订阅**部分，然后单击“**订阅**”以查看详细信息。
 
-   ![image](https://github.com/user-attachments/assets/32d2168e-458f-4872-9bf8-e8f050f24751)
+   ![image](https://github.com/user-attachments/assets/3b25dd82-e09e-4f8a-b85e-c9bc6c4bd488)
    
 3. 在“**设置**”边栏选项卡中的“**Defender 计划**”下，展开**云工作负荷保护 (CWP) **。
 
@@ -37,7 +37,7 @@ lab:
 5. 若要查看 **Microsoft Defender for Servers 计划 2** 的详细信息，请选择“**更改计划 >**”。
 
    备注：将云工作负荷保护 (CWP) 服务器计划从“关”启用为“开”，可启用 Microsoft Defender for Servers 计划 2。
-
-   ![image](https://github.com/user-attachments/assets/869a38e4-464e-4be0-b02e-ce1b96f02978)
+ 
+   ![image](https://github.com/user-attachments/assets/de434a75-345a-4023-83f1-fa53fcb5f288)
    
 > **结果**：已在订阅上启用 Microsoft Defender for Servers 计划 2。
