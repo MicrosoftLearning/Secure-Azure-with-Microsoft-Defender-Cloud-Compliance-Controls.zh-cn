@@ -24,17 +24,19 @@ lab:
 
 >**注意**：可以从 Azure 门户的 Azure 虚拟机页面对 VM 启用 JIT。
 
-1. 在门户顶部的搜索框中，输入“虚拟机”。 在搜索结果中，选择“虚拟机”。
+1. 启动浏览器会话并登录到 [Azure 门户菜单](https://portal.azure.com/)。
+  
+2. 在门户顶部的搜索框中，输入“虚拟机”。 在搜索结果中，选择“虚拟机”。
 
-2. 选择 **vm-1**。
+3. 选择 **vm-1**。
  
-3. 从 vm-1 的“**设置**”部分中选择“**配置**”。
+4. 从 vm-1 的“**设置**”部分中选择“**配置**”。
    
-4. 在“**实时 VM 访问**”下，选择**启用实时。**
+5. 在“**实时 VM 访问**”下，选择**启用实时。**
 
-5. 在**即时虚拟机**访问下，单击 **Open Microsoft Defender for Cloud** 链接。
+6. 在**即时虚拟机**访问下，单击 **Open Microsoft Defender for Cloud** 链接。
 
-6. 默认情况下，VM 的实时访问使用以下设置：
+7. 默认情况下，VM 的实时访问使用以下设置：
 
    - Windows 计算机
    
@@ -47,12 +49,12 @@ lab:
      - 允许的最长访问时间：三小时
      - 允许的源 IP 地址：任意
    
-7. 默认情况下，VM 的实时访问使用以下设置：
+8. 默认情况下，VM 的实时访问使用以下设置：
 
    - 在**已配置**选项卡上，右键单击要向其添加端口的 VM，然后选择编辑。
-  
- ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/66cf98b6-2ce0-43c7-a7be-b5d69bcfac1d)
 
+   ![image](https://github.com/user-attachments/assets/aa4ded55-c5b1-4d40-b5a0-a4c33b9eb81b)
+   
    - 在**JIT VM 访问配置**下，可以编辑已保护的端口的现有设置，也可以添加新的自定义端口。
    - 编辑完端口后，选择**保存**。   
 
@@ -69,12 +71,7 @@ lab:
         - 如果没有为该 VM 启用 JIT，系统会提示你启用它。
     
         - 如果启用了 JIT，则选择**请求访问**，以便传递访问请求，其中包含已为该 VM 配置的请求 IP、时间范围和端口。
-
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/7e454150-bc04-47bc-afa1-e0a1e8af17f9)
-
-
-
-
-
+    
+   ![image](https://github.com/user-attachments/assets/f5d0b67c-7731-4261-b0eb-a56c505dadd4)
 
 > **结果**：你已探索了有关如何在 VM 上启用 JIT 的各种方法，以及如何请求访问在 Microsoft Defender for Cloud 中启用了 JIT 的 VM。

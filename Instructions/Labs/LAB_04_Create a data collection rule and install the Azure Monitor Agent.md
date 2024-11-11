@@ -32,13 +32,15 @@ lab:
 
 >**备注**：在 Log Analytics 或 Azure Monitor 工作区所在的同一区域中创建数据收集规则。 可以将其关联到租户中任何订阅或资源组中的计算机或容器。 Azure Monitor 代理将自动安装在 Azure 虚拟资源上。
 
-1. 在门户顶部的搜索框中，输入**数据收集规则**。 在搜索结果中选择“**数据收集规则**”。
+1. 启动浏览器会话并登录到 [Azure 门户](https://portal.azure.com/)。
   
-2. 在“**数据收集规则**”页上，选择“**+ 创建**”。
+3. 在门户顶部的搜索框中，输入**数据收集规则**。 在搜索结果中选择“**数据收集规则**”。
   
-   ![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
+4. 在“**数据收集规则**”页上，选择“**+ 创建**”。
+  
+    ![image](https://github.com/user-attachments/assets/a472bc6f-fa96-4615-a67c-c99e8b9ce7a4)
 
-3. 在**创建数据收集规则边栏选项卡**的“**基本信息**”页上，指定以下设置（将其他设置保留为默认值）：
+5. 在**创建数据收集规则边栏选项卡**的“**基本信息**”页上，指定以下设置（将其他设置保留为默认值）：
 
     |设置|“值”|
     |---|---|
@@ -50,29 +52,29 @@ lab:
     |平台类型|**Windows**|
     |数据收集终结点|将默认设置保留为“无”。|
 
-    ![image](https://github.com/user-attachments/assets/35c527cf-499d-44b9-966f-0114b8643ef2)
+   ![image](https://github.com/user-attachments/assets/6c63c48f-f7a9-4fb2-8fc0-e22084cd5013)
 
-4. 单击“**基本信息**”页底部标记为“**下一步: 资源 > 继续**”的按钮。
+6. 单击“**基本信息**”页底部标记为“**下一步: 资源 > 继续**”的按钮。
    
-5. 在“**资源**”页上，选择“**+ 添加资源**”。
+7. 在“**资源**”页上，选择“**+ 添加资源**”。
 
-    ![image](https://github.com/user-attachments/assets/6aabf2c9-bea2-47c1-9b0b-bf131cdec4e3)
+   ![image](https://github.com/user-attachments/assets/7e45996b-478b-4be4-9df3-df6127da6cb4)
 
-6. 在“**选择范围**”模板中，选中“**范围**”中的“**订阅**”框。
+8. 在“**选择范围**”模板中，选中“**范围**”中的“**订阅**”框。
 
-    ![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
+   ![image](https://github.com/user-attachments/assets/0d228e47-039e-4418-ae66-025957e368bc)
 
-7. 在“**选择范围**”模板底部，单击“**应用**”。
+9. 在“**选择范围**”模板底部，单击“**应用**”。
   
-8. 在“**资源**”页底部，选择“**下一步：收集和传递 >**”。
+10. 在“**资源**”页底部，选择“**下一步：收集和传递 >**”。
 
-    ![image](https://github.com/user-attachments/assets/717226c3-5ce0-454f-93a4-11b0e67d5a23)
+    ![image](https://github.com/user-attachments/assets/95556211-654f-4810-98a0-5cd8fac13bff)  
 
-9. 在**收集和传递页**上，单击“**+ 添加数据源**”。
+11. 在**收集和传递页**上，单击“**+ 添加数据源**”。
 
-    ![image](https://github.com/user-attachments/assets/0809cf5b-a460-40d1-8508-e42ba7ce78c1)
+    ![image](https://github.com/user-attachments/assets/8274b0c1-8617-4889-9aef-78e050f2bd00)
 
-10. 在“**添加数据源**”模板的“**数据源类型**”下，选择以下设置。
+12. 在“添加数据源”**** 模板的“数据源类型”**** 下，选择以下设置：
     
     |设置|“值”|
     |---|---|
@@ -85,11 +87,11 @@ lab:
     |安全性|**审核成功**、**审核失败**|
     |系统|**严重**、**错误**、**警告**|
 
-    ![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
+    ![image](https://github.com/user-attachments/assets/33039994-0613-40f4-9c55-03f795b38b9b)
 
-12. 在“**添加数据源**”模板底部，选择“**下一步：目标 >**”。
-   
-13. 在“**添加数据源**”模板的“**目标**”选项卡下，选择以下设置。
+13. 在“**添加数据源**”模板底部，选择“**下一步：目标 >**”。
+
+14. 在“**添加数据源**”模板的“**目标**”选项卡下，选择以下设置。
     
     |设置|“值”|
     |---|---|
@@ -99,16 +101,16 @@ lab:
     |订阅|选择订阅。|
     |目标详细信息|**azwrkspc1a (az-rg-1**)|
 
-    ![image](https://github.com/user-attachments/assets/e00c17c8-5a70-4caa-8504-92f482cc5e57)
+     ![image](https://github.com/user-attachments/assets/dc2d2906-4a57-4df9-a33c-fd6ae34a8457)
 
-14. 在“**添加数据源**”模板底部，选择“**添加数据源**”。
+15. 在“**添加数据源**”模板底部，选择“**添加数据源**”。
+
+16. 在“**收集和传递**”页面底部，选择“**查看 + 创建**”。
 
     ![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
 
-15. 在“**收集和传递**”页面底部，选择“**查看 + 创建**”。
+17. 在“**查看 + 创建**”页面底部，选择“**创建**”。
 
-    ![image](https://github.com/user-attachments/assets/0235fed9-6309-444c-9269-b9dbd1118b63)
-
-16. 在“**查看 + 创建**”页面底部，选择“**创建**”。
+    ![image](https://github.com/user-attachments/assets/b532f92e-af10-4b4d-bb52-10d15ad38d4a)
 
 > **结果**：已创建数据收集规则并安装 Azure Monitor 代理。
