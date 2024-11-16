@@ -22,7 +22,7 @@ lab:
 
 ### 配置适用于服务器的 Microsoft Defender for Cloud 增强安全功能
 
-1. 登录 [Azure 门户菜单。](https://portal.azure.com/)
+1.  启动浏览器会话并登录到 [Azure 门户](https://portal.azure.com/)。         
 
 2. 在 Azure 门户中，在 Azure 门户页面顶部的搜索资源、服务和文档文本框中，键入 **Microsoft Defender for Cloud**，然后按 **Enter** 键。
 
@@ -30,11 +30,11 @@ lab:
 
    ![image](https://github.com/user-attachments/assets/3b25dd82-e09e-4f8a-b85e-c9bc6c4bd488)
    
-3. 在“**设置**”边栏选项卡中的“**Defender 计划**”下，展开**云工作负荷保护 (CWP) **。
+4. 在“**设置**”边栏选项卡中的“**Defender 计划**”下，展开**云工作负荷保护 (CWP) **。
 
-4. 从**云工作负荷保护 (CWP) 计划**列表中，选择“**服务器**”。 在页面右侧，将**状态**从“**关**”更改为“**开**”，然后单击“**保存**”。
+5. 从**云工作负荷保护 (CWP) 计划**列表中，选择“**服务器**”。 在页面右侧，将**状态**从“**关**”更改为“**开**”，然后单击“**保存**”。
 
-5. 若要查看 **Microsoft Defender for Servers 计划 2** 的详细信息，请选择“**更改计划 >**”。
+6. 若要查看 **Microsoft Defender for Servers 计划 2** 的详细信息，请选择“**更改计划 >**”。
 
    备注：将云工作负荷保护 (CWP) 服务器计划从“关”启用为“开”，可启用 Microsoft Defender for Servers 计划 2。
  
