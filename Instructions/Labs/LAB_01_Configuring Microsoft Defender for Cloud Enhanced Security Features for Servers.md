@@ -36,7 +36,7 @@ lab:
 
 6. 若要查看 **Microsoft Defender for Servers 计划 2** 的详细信息，请选择“**更改计划 >**”。
 
-   备注：将云工作负荷保护 (CWP) 服务器计划从“关”启用为“开”，可启用 Microsoft Defender for Servers 计划 2。
+   备注：将云工作负载保护 (CWP) 服务器计划从“关”启用为“开”，可启用 Microsoft Defender for Servers 计划 2。
  
    ![image](https://github.com/user-attachments/assets/de434a75-345a-4023-83f1-fa53fcb5f288)
    
